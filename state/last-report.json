@@ -1,0 +1,1086 @@
+{
+  "started_at": "2026-11-22T07:15:47.445285+00:00",
+  "finished_at": "2026-11-22T07:16:00.123429+00:00",
+  "gap_minutes": -1,
+  "mode": "send",
+  "window_start": "2026-11-19T06:45:47.445285+00:00",
+  "overlap_minutes": 30,
+  "sources": [
+    {
+      "name": "sec_official",
+      "label": "SEC 新闻稿",
+      "layer": "rss",
+      "status": "ok",
+      "error": "",
+      "items": 25,
+      "duration_ms": 106,
+      "expected": false
+    },
+    {
+      "name": "cftc_general",
+      "label": "CFTC 综合",
+      "layer": "rss",
+      "status": "ok",
+      "error": "",
+      "items": 10,
+      "duration_ms": 79,
+      "expected": false
+    },
+    {
+      "name": "cftc_enforcement",
+      "label": "CFTC 执法",
+      "layer": "rss",
+      "status": "ok",
+      "error": "",
+      "items": 10,
+      "duration_ms": 86,
+      "expected": false
+    },
+    {
+      "name": "ethereum_foundation",
+      "label": "以太坊基金会",
+      "layer": "rss",
+      "status": "ok",
+      "error": "",
+      "items": 50,
+      "duration_ms": 242,
+      "expected": false
+    },
+    {
+      "name": "trailofbits",
+      "label": "Trail of Bits",
+      "layer": "rss",
+      "status": "ok",
+      "error": "",
+      "items": 20,
+      "duration_ms": 315,
+      "expected": false
+    },
+    {
+      "name": "coindesk",
+      "label": "CoinDesk",
+      "layer": "rss",
+      "status": "ok",
+      "error": "",
+      "items": 25,
+      "duration_ms": 316,
+      "expected": false
+    },
+    {
+      "name": "theblock",
+      "label": "The Block",
+      "layer": "rss",
+      "status": "ok",
+      "error": "",
+      "items": 20,
+      "duration_ms": 89,
+      "expected": false
+    },
+    {
+      "name": "cointelegraph",
+      "label": "Cointelegraph",
+      "layer": "rss",
+      "status": "ok",
+      "error": "",
+      "items": 30,
+      "duration_ms": 105,
+      "expected": false
+    },
+    {
+      "name": "decrypt",
+      "label": "Decrypt",
+      "layer": "rss",
+      "status": "ok",
+      "error": "",
+      "items": 37,
+      "duration_ms": 102,
+      "expected": false
+    },
+    {
+      "name": "cointelegraph_btc",
+      "label": "Cointelegraph-BTC",
+      "layer": "rss",
+      "status": "ok",
+      "error": "",
+      "items": 30,
+      "duration_ms": 59,
+      "expected": false
+    },
+    {
+      "name": "blockbeats",
+      "label": "BlockBeats 快讯",
+      "layer": "blockbeats",
+      "status": "ok",
+      "error": "",
+      "items": 10,
+      "duration_ms": 2430,
+      "expected": false
+    },
+    {
+      "name": "odaily",
+      "label": "Odaily 星球日报",
+      "layer": "odaily",
+      "status": "ok",
+      "error": "",
+      "items": 16,
+      "duration_ms": 1756,
+      "expected": false
+    },
+    {
+      "name": "techflow",
+      "label": "TechFlow 深潮",
+      "layer": "techflow",
+      "status": "missing",
+      "error": "解析后 0 条，按缺失处理，不视为正常空轮",
+      "items": 0,
+      "duration_ms": 373,
+      "expected": false
+    },
+    {
+      "name": "abmedia",
+      "label": "ABMedia 链新闻",
+      "layer": "rss",
+      "status": "blocked",
+      "error": "HTTP Error 403: Forbidden",
+      "items": 0,
+      "duration_ms": 88,
+      "expected": true
+    },
+    {
+      "name": "blocktempo",
+      "label": "BlockTempo 动区",
+      "layer": "rss",
+      "status": "ok",
+      "error": "",
+      "items": 10,
+      "duration_ms": 138,
+      "expected": false
+    },
+    {
+      "name": "blockcast",
+      "label": "区块客",
+      "layer": "rss",
+      "status": "ok",
+      "error": "",
+      "items": 10,
+      "duration_ms": 668,
+      "expected": false
+    },
+    {
+      "name": "zombit",
+      "label": "桑币网 Zombit",
+      "layer": "rss",
+      "status": "ok",
+      "error": "",
+      "items": 5,
+      "duration_ms": 962,
+      "expected": false
+    },
+    {
+      "name": "foresight",
+      "label": "Foresight News",
+      "layer": "rss",
+      "status": "ok",
+      "error": "",
+      "items": 20,
+      "duration_ms": 8723,
+      "expected": false
+    },
+    {
+      "name": "eqn_main",
+      "label": "方程式新闻 main",
+      "layer": "rss",
+      "status": "ok",
+      "error": "",
+      "items": 50,
+      "duration_ms": 84,
+      "expected": false
+    },
+    {
+      "name": "ns3_ranking",
+      "label": "ns3 重要榜",
+      "layer": "rss",
+      "status": "ok",
+      "error": "",
+      "items": 10,
+      "duration_ms": 158,
+      "expected": false
+    },
+    {
+      "name": "x_wublockchain",
+      "label": "X @wublockchainenglish",
+      "layer": "telegram",
+      "status": "ok",
+      "error": "",
+      "items": 20,
+      "duration_ms": 840,
+      "expected": false
+    },
+    {
+      "name": "x_investigations",
+      "label": "X @investigations",
+      "layer": "telegram",
+      "status": "stale",
+      "error": "最新条目距今 163.6 小时，超过 72 小时阈值",
+      "items": 20,
+      "duration_ms": 953,
+      "expected": false
+    },
+    {
+      "name": "x_watcherguru",
+      "label": "X @WatcherGuru",
+      "layer": "telegram",
+      "status": "ok",
+      "error": "",
+      "items": 14,
+      "duration_ms": 811,
+      "expected": false
+    },
+    {
+      "name": "x_cointelegraph",
+      "label": "X @cointelegraph",
+      "layer": "telegram",
+      "status": "ok",
+      "error": "",
+      "items": 14,
+      "duration_ms": 831,
+      "expected": false
+    }
+  ],
+  "source_failures": {
+    "techflow": {
+      "count": 1,
+      "error_type": "missing",
+      "last_error": "解析后 0 条，按缺失处理，不视为正常空轮",
+      "at": "2026-11-22T07:16:00.096961+00:00"
+    },
+    "x_investigations": {
+      "count": 1,
+      "error_type": "stale",
+      "last_error": "最新条目距今 163.6 小时，超过 72 小时阈值",
+      "at": "2026-11-22T07:16:00.096998+00:00"
+    }
+  },
+  "all_sources_failed": false,
+  "cloud": {
+    "since": "2026-11-19 06:45 UTC",
+    "queries": [
+      "加密货币 监管 执法 最新",
+      "协议 被黑 漏洞 损失",
+      "稳定币 脱锚 裁决",
+      "加密项目 融资 并购",
+      "crypto protocol exploit hack latest",
+      "SEC CFTC crypto enforcement action",
+      "stablecoin depeg court ruling",
+      "Bitcoin Ethereum mainnet upgrade announcement"
+    ],
+    "engine_counts": {
+      "exa_public": 8
+    },
+    "hits": 40,
+    "errors": []
+  },
+  "push_paused": false,
+  "pause_reasons": [],
+  "empty_round": false,
+  "raw_items": 436,
+  "archived": {
+    "high": 0,
+    "medium_high": 0,
+    "medium": 20,
+    "low": 50
+  },
+  "routed": {
+    "exchange": 1,
+    "whale": 2
+  },
+  "filtered_non_chinese": 173,
+  "already_seen": 8,
+  "max_per_source": 2,
+  "source_balanced_deferred": 0,
+  "candidates": [],
+  "archived_decisions": [
+    {
+      "title": "比特币今年跌至5.5万美元概率升至68%",
+      "source": "blockbeats",
+      "url": "https://www.theblockbeats.info/flash/378618",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "category_unverified",
+        "reason": "未命中任何事件类别，分类未确认，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "ARK Invest撤回CoinDesk 20 Crypto ETF及不含比特币版本的推出计划",
+      "source": "blockbeats",
+      "url": "https://www.theblockbeats.info/flash/378617",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "category_unverified",
+        "reason": "未命中任何事件类别，分类未确认，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "美银：股市回吐全年涨幅是阻止美联储继续加息的最快方式",
+      "source": "blockbeats",
+      "url": "https://www.theblockbeats.info/flash/378616",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "机构：美国10月PCE通胀料升至3.8%，美联储12月加息预期或升温",
+      "source": "blockbeats",
+      "url": "https://www.theblockbeats.info/flash/378614",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "AI交易由狂热转为恐惧，市场波动加剧、纳指100逼近熊市",
+      "source": "blockbeats",
+      "url": "https://www.theblockbeats.info/flash/378613",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "高盛：美股抛售尚未结束，恐慌指数接近峰值",
+      "source": "blockbeats",
+      "url": "https://www.theblockbeats.info/flash/378612",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "比特币Ahr999「抄底」指标现报0.2703，连续4日低于关键阈值0.3",
+      "source": "blockbeats",
+      "url": "https://www.theblockbeats.info/flash/378611",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "category_unverified",
+        "reason": "未命中任何事件类别，分类未确认，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "比特币跌破59,000美元",
+      "source": "blockbeats",
+      "url": "https://www.theblockbeats.info/flash/378610",
+      "decision": {
+        "level": "中",
+        "level_key": "medium",
+        "category": "market",
+        "rule": "K09_market_only",
+        "reason": "命中规则 K09_market：跌破59,000美元；纯行情类只存档；超过 45 分钟半衰期，降权不推",
+        "signals": [
+          "K09_market"
+        ],
+        "contamination": 0,
+        "half_life_minutes": 45,
+        "expired": true,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "美股半导体指数相对标普500比率创2026年4月以来新低，相对跌幅堪比2000年互联网泡沫破裂后",
+      "source": "blockbeats",
+      "url": "https://www.theblockbeats.info/flash/378608",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "知名交易员Killa：比特币短线关注6.1万至6.2万美元阻力，不倾向低位重仓做空",
+      "source": "blockbeats",
+      "url": "https://www.theblockbeats.info/flash/378607",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "category_unverified",
+        "reason": "未命中任何事件类别，分类未确认，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "HAN CHAIN旗舰项目ARGO计划于12月18日启动",
+      "source": "odaily",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537506",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "星球午讯",
+      "source": "odaily",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537503",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "Chainflip确认约1200万美元资产被盗，向攻击者提供10%赏金",
+      "source": "odaily",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537502",
+      "decision": {
+        "level": "中",
+        "level_key": "medium",
+        "category": "security",
+        "rule": "K01_security_exploit",
+        "reason": "命中规则 K01_security_exploit：被盗；高置信信号单独命中即达高；超过 45 分钟半衰期，降权不推",
+        "signals": [
+          "K01_security_exploit"
+        ],
+        "contamination": 0,
+        "half_life_minutes": 45,
+        "expired": true,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "Coinbase比特币溢价指数连续60日录得负值，美国市场购买力持续陷入低迷",
+      "source": "odaily",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537501",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "category_unverified",
+        "reason": "未命中任何事件类别，分类未确认，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "BTC短时跌破59000 USDT，24H涨幅收窄至 4.79%",
+      "source": "odaily",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537500",
+      "decision": {
+        "level": "中",
+        "level_key": "medium",
+        "category": "market",
+        "rule": "K09_market_only",
+        "reason": "命中规则 K09_market：涨幅；纯行情类只存档；超过 45 分钟半衰期，降权不推",
+        "signals": [
+          "K09_market"
+        ],
+        "contamination": 0,
+        "half_life_minutes": 45,
+        "expired": true,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "分析：Anthropic现金储备已超Alphabet、亚马逊、SpaceX和苹果四家总和",
+      "source": "odaily",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537499",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "JAGENT短时闪崩超74%，疑似流动性池变化引发抛售",
+      "source": "odaily",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537498",
+      "decision": {
+        "level": "中",
+        "level_key": "medium",
+        "category": "market",
+        "rule": "K09_market_only",
+        "reason": "命中规则 K09_market：行情；纯行情类只存档；超过 45 分钟半衰期，降权不推",
+        "signals": [
+          "K09_market"
+        ],
+        "contamination": 0,
+        "half_life_minutes": 45,
+        "expired": true,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "孙宇晨奖拟提供200万美元奖励黎曼猜想两项研究成果",
+      "source": "odaily",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537497",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "Strategy以3340万美元购入485枚比特币，比特币重返6万美元",
+      "source": "odaily",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537496",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "category_unverified",
+        "reason": "未命中任何事件类别，分类未确认，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "Payy更新安全事件处理进展：退款发放完成，理赔申领窗口关闭",
+      "source": "odaily",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537495",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "Pump.fun将于11月30日起停用网页端外部钱包登录",
+      "source": "odaily",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537493",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "Robert Kiyosaki建议等待比特币跌势结束后再买入",
+      "source": "odaily",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537492",
+      "decision": {
+        "level": "中",
+        "level_key": "medium",
+        "category": "statement",
+        "rule": "K08_person_statement",
+        "reason": "命中规则 K08_person_statement：表示；命中规则 K09_market：价格；中等信号累计 2 类或含 BTC/ETH；超过 45 分钟半衰期，降权不推",
+        "signals": [
+          "K08_person_statement"
+        ],
+        "contamination": 0,
+        "half_life_minutes": 45,
+        "expired": true,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "奈飞FTX新剧引发行业反思：1confirmation创始人怒批前美SEC主席、红杉贪婪逐利",
+      "source": "odaily",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537489",
+      "decision": {
+        "level": "中",
+        "level_key": "medium",
+        "category": "statement",
+        "rule": "medium_signal_not_accumulated",
+        "reason": "命中规则 K08_person_statement：创始人；中等信号仅 1 类且无 BTC/ETH，只存档；超过 240 分钟半衰期，降权不推",
+        "signals": [
+          "K08_person_statement"
+        ],
+        "contamination": 0,
+        "half_life_minutes": 240,
+        "expired": true,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "讓 iPhone 跑安卓的開源模擬器，被 App Store 下架了",
+      "source": "blocktempo",
+      "url": "https://www.blocktempo.com/apple-removes-andarium-android-iphone-app-store-sideload-github-altstore/",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "限空令 3.0 明上路，擋得住台股賣壓嗎？小心 PCE 與感恩節波動",
+      "source": "blocktempo",
+      "url": "https://www.blocktempo.com/taiwan-full-short-selling-ban-takes-effect-pce-thanksgiving-looms/",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "川普喊跟伊朗簽「永久協議」：就算換無能總統，也不准擁核武",
+      "source": "blocktempo",
+      "url": "https://www.blocktempo.com/trump-iran-permanent-deal-bahrain-attack-vance-incompetent-president-nuclear/",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "孫宇晨獎擬提供 200 萬美元獎勵黎曼猜想兩項研究成果，推動 AI 數學研究創新",
+      "source": "blocktempo",
+      "url": "https://www.blocktempo.com/justin-sun-prize-riemann-hypothesis-200-million-reward-math-research/",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "川普說願與民主黨合作，把信用卡利率上限壓到 10%",
+      "source": "blocktempo",
+      "url": "https://www.blocktempo.com/trump-democrats-credit-card-rate-cap-10-percent/",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "美議員提預測市場內線交易法！吹哨者最高分 30% 罰金",
+      "source": "blocktempo",
+      "url": "https://www.blocktempo.com/us-prediction-market-insider-trading-whistleblower-bill-casten-lieu-doj-reward/",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "SEC 查輝達不是第一次：2017 季報沒寫挖礦營收，後來發生什麼？",
+      "source": "blocktempo",
+      "url": "https://www.blocktempo.com/nvidia-sec-probe-crypto-mining-disclosure-fine-shareholder-lawsuit-settlement/",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "category_unverified",
+        "reason": "未命中任何事件类别，分类未确认，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "Arthur Hayes：比特幣前低已失守，那指若續跌「將考驗 5 萬美元」",
+      "source": "blocktempo",
+      "url": "https://www.blocktempo.com/arthur-hayes-bitcoin-breaks-local-low-50000-real-test-nasdaq/",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "台積電傳暫停中國客戶 16 奈米以下訂單，沒美國許可不能接",
+      "source": "blocktempo",
+      "url": "https://www.blocktempo.com/tsmc-suspends-china-designers-advanced-orders-pending-us-export-license/",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "黎曼猜想電腦驗證過關！Lean 社群聯合聲明：對正確性「有完全的信心」",
+      "source": "blocktempo",
+      "url": "https://www.blocktempo.com/lean-mathlib-joint-statement-certifies-alpoge-riemann-hypothesis-proof-claude/",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "女股神連 2 天狂買 Anthropic！ARK 加碼逾 164 萬股，同步減持 ETH 、 SOL ETF",
+      "source": "blockcast",
+      "url": "https://blockcast.it/2026/11/21/cathie-wood-ark-anthropic-shares-ethereum-solana-etf/",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "category_unverified",
+        "reason": "未命中任何事件类别，分类未确认，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "估比特幣挖礦成本達 8.6 萬！摩根大通警告：礦工恐被迫賣幣",
+      "source": "blockcast",
+      "url": "https://blockcast.it/2026/11/21/bitcoin-below-mining-cost-jpmorgan-86000-btc-miners-selling-pressure/",
+      "decision": {
+        "level": "中",
+        "level_key": "medium",
+        "category": "statement",
+        "rule": "K08_person_statement",
+        "reason": "命中规则 K08_person_statement：警告；中等信号累计 2 类或含 BTC/ETH；超过 240 分钟半衰期，降权不推",
+        "signals": [
+          "K08_person_statement"
+        ],
+        "contamination": 0,
+        "half_life_minutes": 240,
+        "expired": true,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "輝達單日重挫 14% 、納指一週慘摔 10%！比特幣跌穿 6 萬，AI 股與幣市陷雙重拋售",
+      "source": "blockcast",
+      "url": "https://blockcast.it/2026/11/21/nvidia-stock-crash-sec-probe-bitcoin-below-60000-nasdaq/",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "not_crypto_related",
+        "reason": "与币圈无高度关联或纯传统金融，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "比特幣暴跌至 5.5 萬美元、 24 小時重挫近 9%！全市場爆倉 24 億美元",
+      "source": "blockcast",
+      "url": "https://blockcast.it/2026/11/21/bitcoin-crash-below-56000-2-billion-liquidations/",
+      "decision": {
+        "level": "中",
+        "level_key": "medium",
+        "category": "market",
+        "rule": "K09_market_only",
+        "reason": "命中规则 K09_market：暴跌；纯行情类只存档；超过 45 分钟半衰期，降权不推",
+        "signals": [
+          "K09_market"
+        ],
+        "contamination": 0,
+        "half_life_minutes": 45,
+        "expired": true,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "貝萊德 IBIT 單日失血 5.41 億美元！比特幣 ETF 連 3 日撤資 11.3 億，BTC 跌向 6 萬",
+      "source": "blockcast",
+      "url": "https://blockcast.it/2026/11/20/bitcoin-etf-three-day-outflows-1-billion/",
+      "decision": {
+        "level": "低",
+        "level_key": "low",
+        "category": "unknown",
+        "rule": "category_unverified",
+        "reason": "未命中任何事件类别，分类未确认，只存档",
+        "signals": [],
+        "contamination": 0,
+        "half_life_minutes": 0,
+        "expired": false,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "Kalshi 再吞敗仗！美國上訴法院 2 比 1 挺各州博彩監管，預測市場恐打進最高法院",
+      "source": "blockcast",
+      "url": "https://blockcast.it/2026/11/20/kalshi-loses-maryland-appeal-state-gambling-laws-cftc/",
+      "decision": {
+        "level": "中",
+        "level_key": "medium",
+        "category": "regulatory",
+        "rule": "K03_regulatory_enforcement",
+        "reason": "命中规则 K03_regulatory_enforcement：法院以 2 比 1 裁定,維持下級法院拒絕核發初步禁令；高置信信号单独命中即达高；超过 240 分钟半衰期，降权不推",
+        "signals": [
+          "K03_regulatory_enforcement"
+        ],
+        "contamination": 0,
+        "half_life_minutes": 240,
+        "expired": true,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    },
+    {
+      "title": "Solana 基金會拿下 CoinGecko 多數股權！1,800 萬用戶未來可直接鏈上交易",
+      "source": "blockcast",
+      "url": "https://blockcast.it/2026/11/20/solana-foundation-coingecko-majority-stake-onchain-trading/",
+      "decision": {
+        "level": "中",
+        "level_key": "medium",
+        "category": "market",
+        "rule": "K09_market_only",
+        "reason": "命中规则 K09_market：行情；纯行情类只存档；超过 45 分钟半衰期，降权不推",
+        "signals": [
+          "K09_market"
+        ],
+        "contamination": 0,
+        "half_life_minutes": 45,
+        "expired": true,
+        "pushable": false,
+        "route": "",
+        "archived": true
+      }
+    }
+  ],
+  "message": "",
+  "telegram_sent": false
+}
