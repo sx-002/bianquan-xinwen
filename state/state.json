@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-11-22T15:34:23.968412+00:00",
-  "last_run": "2026-11-22T15:34:17.594301+00:00",
+  "updated_at": "2026-11-22T21:56:39.183040+00:00",
+  "last_run": "2026-11-22T21:56:31.392346+00:00",
   "seen": {
     "ab281ab2350d634b": {
       "source": "sec_official",
@@ -3258,6 +3258,391 @@
       "published_at": "2026-11-22T13:13:09+00:00",
       "first_seen": "2026-11-22T15:34:23.968163+00:00",
       "updated_at": "2026-11-22T15:34:23.968178+00:00"
+    },
+    "544d0b02e5fbb898": {
+      "source": "coindesk",
+      "title": "More on the pending oversight hearings: State of Crypto",
+      "url": "https://www.coindesk.com/",
+      "level": "low",
+      "rule": "non_chinese_filter",
+      "status": "非中文",
+      "published_at": "2026-11-22T19:30:00+00:00",
+      "first_seen": "2026-11-22T21:56:39.178108+00:00",
+      "updated_at": "2026-11-22T21:56:39.178114+00:00"
+    },
+    "b05799865829f858": {
+      "source": "theblock",
+      "title": "Trump to host second memecoin dinner tonight with TRUMP down 99% from peak",
+      "url": "https://www.theblock.co/news/ecosystems/2026-11-22-trump-to-host-second-memecoin-dinner-tonight-with-trump-down-99-from-peak-444828",
+      "level": "low",
+      "rule": "non_chinese_filter",
+      "status": "非中文",
+      "published_at": "2026-11-22T20:58:33+00:00",
+      "first_seen": "2026-11-22T21:56:39.178182+00:00",
+      "updated_at": "2026-11-22T21:56:39.178185+00:00"
+    },
+    "3583ccfdd864af16": {
+      "source": "theblock",
+      "title": "Chainflip’s losses climb to $12 million after protocol discloses 122.9 BTC theft, offers hacker bounty",
+      "url": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829",
+      "level": "low",
+      "rule": "non_chinese_filter",
+      "status": "非中文",
+      "published_at": "2026-11-22T18:58:57+00:00",
+      "first_seen": "2026-11-22T21:56:39.178258+00:00",
+      "updated_at": "2026-11-22T21:56:39.178261+00:00"
+    },
+    "736355c020000e5a": {
+      "source": "blockbeats",
+      "title": "美股韩股周一价格预告：SK海力士预计开盘跌约5.2%，美股盘前多数走强",
+      "url": "https://www.theblockbeats.info/flash/378652",
+      "level": "low",
+      "rule": "not_crypto_related",
+      "status": "存档",
+      "published_at": "2026-11-22T15:59:00+00:00",
+      "first_seen": "2026-11-22T21:56:39.178338+00:00",
+      "updated_at": "2026-11-22T21:56:39.178341+00:00"
+    },
+    "3ac03e1379ccea9c": {
+      "source": "blockbeats",
+      "title": "美国财长贝森特：市场抛售源于美联储言论、中期选举等因素",
+      "url": "https://www.theblockbeats.info/flash/378651",
+      "level": "low",
+      "rule": "not_crypto_related",
+      "status": "存档",
+      "published_at": "2026-11-22T15:41:00+00:00",
+      "first_seen": "2026-11-22T21:56:39.178407+00:00",
+      "updated_at": "2026-11-22T21:56:39.178410+00:00"
+    },
+    "b70fd9aa47e556f2": {
+      "source": "odaily",
+      "title": "Kalshi CEO出席民主党州总检察长会议，平台面临多州诉讼",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537606",
+      "level": "low",
+      "rule": "not_crypto_related",
+      "status": "存档",
+      "published_at": "2026-11-22T21:19:27+00:00",
+      "first_seen": "2026-11-22T21:56:39.178506+00:00",
+      "updated_at": "2026-11-22T21:56:39.178508+00:00"
+    },
+    "e45a66c00a2953b7": {
+      "source": "odaily",
+      "title": "SOL跌破70 USDT，24H跌幅0.95%",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537600",
+      "level": "medium",
+      "rule": "K09_market_only",
+      "status": "存档",
+      "published_at": "2026-11-22T20:24:27+00:00",
+      "first_seen": "2026-11-22T21:56:39.178632+00:00",
+      "updated_at": "2026-11-22T21:56:39.178635+00:00"
+    },
+    "2c662e7eb812e76c": {
+      "source": "odaily",
+      "title": "Solana主网改用1.0版本，基金会取得CoinGecko多数股权",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537599",
+      "level": "medium",
+      "rule": "medium_signal_not_accumulated",
+      "status": "存档",
+      "published_at": "2026-11-22T19:59:46+00:00",
+      "first_seen": "2026-11-22T21:56:39.178879+00:00",
+      "updated_at": "2026-11-22T21:56:39.178883+00:00"
+    },
+    "ba9ed5ae5a718fab": {
+      "source": "odaily",
+      "title": "约880年一遇概率下挖出区块，单人矿工获3.066枚BTC奖励",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537598",
+      "level": "low",
+      "rule": "category_unverified",
+      "status": "存档",
+      "published_at": "2026-11-22T19:56:19+00:00",
+      "first_seen": "2026-11-22T21:56:39.179443+00:00",
+      "updated_at": "2026-11-22T21:56:39.179448+00:00"
+    },
+    "e86c4578e972f3af": {
+      "source": "odaily",
+      "title": "Fusionist攻击相关铸币地址及Tornado、跨链桥地址获披露",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537597",
+      "level": "low",
+      "rule": "not_crypto_related",
+      "status": "存档",
+      "published_at": "2026-11-22T19:54:00+00:00",
+      "first_seen": "2026-11-22T21:56:39.179650+00:00",
+      "updated_at": "2026-11-22T21:56:39.179652+00:00"
+    },
+    "d300546f245b4dd4": {
+      "source": "odaily",
+      "title": "约187万美元资金经Tornado Cash洗钱，Fusionist攻击者转移1091.5枚ETH",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537596",
+      "level": "low",
+      "rule": "route_whale_transfer",
+      "status": "让路",
+      "published_at": "2026-11-22T19:53:17+00:00",
+      "first_seen": "2026-11-22T21:56:39.179698+00:00",
+      "updated_at": "2026-11-22T21:56:39.179700+00:00"
+    },
+    "2f43bb53ba8cac20": {
+      "source": "odaily",
+      "title": "铸造10千万亿枚ACE，Fusionist Bridge漏洞被利用",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537595",
+      "level": "medium",
+      "rule": "K01_security_exploit",
+      "status": "存档",
+      "published_at": "2026-11-22T19:49:47+00:00",
+      "first_seen": "2026-11-22T21:56:39.179988+00:00",
+      "updated_at": "2026-11-22T21:56:39.179993+00:00"
+    },
+    "959645ed5cb57b5c": {
+      "source": "odaily",
+      "title": "黑客仍持有0.2479枚BTC未花费，截至区块高度977,088",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537592",
+      "level": "medium",
+      "rule": "K01_security_exploit",
+      "status": "存档",
+      "published_at": "2026-11-22T19:15:27+00:00",
+      "first_seen": "2026-11-22T21:56:39.180218+00:00",
+      "updated_at": "2026-11-22T21:56:39.180220+00:00"
+    },
+    "4128af0e0197101c": {
+      "source": "odaily",
+      "title": "速度更快、成本更低且更稳健，Solana基金会称Alpenglow将于10月中旬升级",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537589",
+      "level": "low",
+      "rule": "not_crypto_related",
+      "status": "存档",
+      "published_at": "2026-11-22T18:50:06+00:00",
+      "first_seen": "2026-11-22T21:56:39.180412+00:00",
+      "updated_at": "2026-11-22T21:56:39.180414+00:00"
+    },
+    "1ca5fe851e890af5": {
+      "source": "odaily",
+      "title": "英国将禁止加密交易所在自有平台做市",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537588",
+      "level": "low",
+      "rule": "category_unverified",
+      "status": "存档",
+      "published_at": "2026-11-22T18:44:35+00:00",
+      "first_seen": "2026-11-22T21:56:39.180538+00:00",
+      "updated_at": "2026-11-22T21:56:39.180540+00:00"
+    },
+    "fa55d0e9df9473a9": {
+      "source": "odaily",
+      "title": "律师Daniel Wallach：限制令可能仅限纽约州用户，是否全国适用仍存争议",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537587",
+      "level": "low",
+      "rule": "not_crypto_related",
+      "status": "存档",
+      "published_at": "2026-11-22T18:43:44+00:00",
+      "first_seen": "2026-11-22T21:56:39.180684+00:00",
+      "updated_at": "2026-11-22T21:56:39.180686+00:00"
+    },
+    "e801f86610de7ac0": {
+      "source": "odaily",
+      "title": "Coinbase Institutional向Coinbase转移1.92亿枚USDC，价值约1.92亿美元",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537583",
+      "level": "low",
+      "rule": "route_whale_transfer",
+      "status": "让路",
+      "published_at": "2026-11-22T17:14:23+00:00",
+      "first_seen": "2026-11-22T21:56:39.180732+00:00",
+      "updated_at": "2026-11-22T21:56:39.180734+00:00"
+    },
+    "b9b10d47dc41c111": {
+      "source": "odaily",
+      "title": "DeFi Development Corp优先股CHAD本周预计筹资足以购入超800枚SOL",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537580",
+      "level": "medium",
+      "rule": "K08_person_statement",
+      "status": "存档",
+      "published_at": "2026-11-22T16:43:55+00:00",
+      "first_seen": "2026-11-22T21:56:39.181072+00:00",
+      "updated_at": "2026-11-22T21:56:39.181076+00:00"
+    },
+    "01fae44d78a96981": {
+      "source": "odaily",
+      "title": "价值约2.5亿美元，Circle的USDC Treasury新铸造2.5亿枚USDC",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537579",
+      "level": "low",
+      "rule": "category_unverified",
+      "status": "存档",
+      "published_at": "2026-11-22T16:25:56+00:00",
+      "first_seen": "2026-11-22T21:56:39.181321+00:00",
+      "updated_at": "2026-11-22T21:56:39.181324+00:00"
+    },
+    "f7d0a67e118ccd6b": {
+      "source": "odaily",
+      "title": "BTC突破61000 USDT，24H涨幅1.96%",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537578",
+      "level": "medium",
+      "rule": "K09_market_only",
+      "status": "存档",
+      "published_at": "2026-11-22T16:08:16+00:00",
+      "first_seen": "2026-11-22T21:56:39.181417+00:00",
+      "updated_at": "2026-11-22T21:56:39.181420+00:00"
+    },
+    "f79a28ec454e8307": {
+      "source": "odaily",
+      "title": "预测市场认为比特币年内触及5.5万美元概率为56%",
+      "url": "https://www.odaily.news/zh-CN/newsflash/537576",
+      "level": "low",
+      "rule": "market_speculation_archived",
+      "status": "存档",
+      "published_at": "2026-11-22T15:47:36+00:00",
+      "first_seen": "2026-11-22T21:56:39.181680+00:00",
+      "updated_at": "2026-11-22T21:56:39.181682+00:00"
+    },
+    "b0f6db38717d8d8e": {
+      "source": "eqn_main",
+      "title": "Fusionist Bridge 漏洞被利用，铸造了 10 千万亿枚 $ACE 代币，估计抽走 104 万美元 USDT",
+      "url": "https://eqn.news/main/16704",
+      "level": "low",
+      "rule": "route_exchange_monitor",
+      "status": "让路",
+      "published_at": "2026-11-22T19:35:42+00:00",
+      "first_seen": "2026-11-22T21:56:39.181855+00:00",
+      "updated_at": "2026-11-22T21:56:39.181859+00:00"
+    },
+    "4b1253fa865e9692": {
+      "source": "ns3_ranking",
+      "title": "UK to bar crypto platforms from making markets on their own venues",
+      "url": "https://ns3.ai/en/news/UhQzlCrmtt",
+      "level": "low",
+      "rule": "non_chinese_filter",
+      "status": "非中文",
+      "published_at": "2026-11-22T18:05:49+00:00",
+      "first_seen": "2026-11-22T21:56:39.181996+00:00",
+      "updated_at": "2026-11-22T21:56:39.181999+00:00"
+    },
+    "4d66338162b8ece4": {
+      "source": "ns3_ranking",
+      "title": "Chainflip freezes withdrawals after $4.86 million leaves Ethereum vault",
+      "url": "https://ns3.ai/en/news/ETTQCb62o2",
+      "level": "low",
+      "rule": "non_chinese_filter",
+      "status": "非中文",
+      "published_at": "2026-11-22T16:05:55+00:00",
+      "first_seen": "2026-11-22T21:56:39.182123+00:00",
+      "updated_at": "2026-11-22T21:56:39.182125+00:00"
+    },
+    "4623052243a5da35": {
+      "source": "ns3_ranking",
+      "title": "Solana mainnet moves to version 1.0",
+      "url": "https://ns3.ai/en/news/UqJ0mtxMGn",
+      "level": "low",
+      "rule": "non_chinese_filter",
+      "status": "非中文",
+      "published_at": "2026-11-22T19:59:46+00:00",
+      "first_seen": "2026-11-22T21:56:39.182166+00:00",
+      "updated_at": "2026-11-22T21:56:39.182168+00:00"
+    },
+    "00a5bbacd11ab466": {
+      "source": "x_watcherguru",
+      "title": "JUST IN: 🇺🇸 Democrats plan to reverse President Donald Trump's tax cuts after taking control of Congress next year.",
+      "url": "https://t.me/WatcherGuru/16244",
+      "level": "low",
+      "rule": "non_chinese_filter",
+      "status": "非中文",
+      "published_at": "2026-11-22T15:57:42+00:00",
+      "first_seen": "2026-11-22T21:56:39.182239+00:00",
+      "updated_at": "2026-11-22T21:56:39.182241+00:00"
+    },
+    "c047219a88566965": {
+      "source": "x_watcherguru",
+      "title": "JUST IN: Over 50 government, AI, and cybersecurity leaders warn cyberattacks on businesses and critical infrastructure will become constant and highly disruptive over the next 18 months.",
+      "url": "https://t.me/WatcherGuru/16245",
+      "level": "low",
+      "rule": "non_chinese_filter",
+      "status": "非中文",
+      "published_at": "2026-11-22T16:16:31+00:00",
+      "first_seen": "2026-11-22T21:56:39.182334+00:00",
+      "updated_at": "2026-11-22T21:56:39.182336+00:00"
+    },
+    "f2dfe3056cf1671f": {
+      "source": "x_watcherguru",
+      "title": "JUST IN: Bitcoin reclaims $61,000 and ETH reclaims $1,715",
+      "url": "https://t.me/WatcherGuru/16246",
+      "level": "low",
+      "rule": "non_chinese_filter",
+      "status": "非中文",
+      "published_at": "2026-11-22T16:28:29+00:00",
+      "first_seen": "2026-11-22T21:56:39.182385+00:00",
+      "updated_at": "2026-11-22T21:56:39.182387+00:00"
+    },
+    "84dd5a582002bf81": {
+      "source": "x_watcherguru",
+      "title": "JUST IN: Elon Musk says Tesla's $TSLA humanoid robot Optimus will be the \"best product of all time.\"",
+      "url": "https://t.me/WatcherGuru/16248",
+      "level": "low",
+      "rule": "non_chinese_filter",
+      "status": "非中文",
+      "published_at": "2026-11-22T17:03:28+00:00",
+      "first_seen": "2026-11-22T21:56:39.182444+00:00",
+      "updated_at": "2026-11-22T21:56:39.182446+00:00"
+    },
+    "f4af410175181ad5": {
+      "source": "x_watcherguru",
+      "title": "JUST IN: 🇺🇸 President Trump blames Democrats for the stock market crashing, says \"it will only get worse.\"",
+      "url": "https://t.me/WatcherGuru/16250",
+      "level": "low",
+      "rule": "non_chinese_filter",
+      "status": "非中文",
+      "published_at": "2026-11-22T17:26:18+00:00",
+      "first_seen": "2026-11-22T21:56:39.182512+00:00",
+      "updated_at": "2026-11-22T21:56:39.182514+00:00"
+    },
+    "6efdb89a4503d609": {
+      "source": "x_watcherguru",
+      "title": "JUST IN: 🇨🇳🇺🇸 US intelligence confirms China gained access to advanced American AI chips.",
+      "url": "https://t.me/WatcherGuru/16251",
+      "level": "low",
+      "rule": "non_chinese_filter",
+      "status": "非中文",
+      "published_at": "2026-11-22T17:47:39+00:00",
+      "first_seen": "2026-11-22T21:56:39.182571+00:00",
+      "updated_at": "2026-11-22T21:56:39.182573+00:00"
+    },
+    "6bb169b1869984a9": {
+      "source": "x_watcherguru",
+      "title": "JUST IN: OpenAI Chief Scientist calls to limit AI development.",
+      "url": "https://t.me/WatcherGuru/16253",
+      "level": "low",
+      "rule": "non_chinese_filter",
+      "status": "非中文",
+      "published_at": "2026-11-22T19:48:07+00:00",
+      "first_seen": "2026-11-22T21:56:39.182619+00:00",
+      "updated_at": "2026-11-22T21:56:39.182621+00:00"
+    },
+    "dae6e86a41715170": {
+      "source": "x_cointelegraph",
+      "title": "🇺🇸 NEW: One trader got into Trump's memecoin gala for the third time by buying $TRUMP and shorting it at the same time, and this round he walked away $6 richer.",
+      "url": "https://t.me/cointelegraph/73439",
+      "level": "low",
+      "rule": "non_chinese_filter",
+      "status": "非中文",
+      "published_at": "2026-11-22T16:06:21+00:00",
+      "first_seen": "2026-11-22T21:56:39.182700+00:00",
+      "updated_at": "2026-11-22T21:56:39.182702+00:00"
+    },
+    "2e5e5ed2f755ff67": {
+      "source": "x_cointelegraph",
+      "title": "⚡ UPDATE: The S&P 500 has almost wiped out its entire 2026 gain.",
+      "url": "https://t.me/cointelegraph/73440",
+      "level": "low",
+      "rule": "non_chinese_filter",
+      "status": "非中文",
+      "published_at": "2026-11-22T18:32:32+00:00",
+      "first_seen": "2026-11-22T21:56:39.182757+00:00",
+      "updated_at": "2026-11-22T21:56:39.182759+00:00"
+    },
+    "be1f85cf1838511e": {
+      "source": "x_cointelegraph",
+      "title": "🚨 PAIN: The crypto fear and greed index has not been this low since February 2026.",
+      "url": "https://t.me/cointelegraph/73441",
+      "level": "low",
+      "rule": "non_chinese_filter",
+      "status": "非中文",
+      "published_at": "2026-11-22T20:31:01+00:00",
+      "first_seen": "2026-11-22T21:56:39.182826+00:00",
+      "updated_at": "2026-11-22T21:56:39.182829+00:00"
     }
   },
   "title_buckets": {
@@ -3556,20 +3941,55 @@
     "marketthecoinbasebtcpremiumhasbeennegativefor60straightdays|83117": "83969b188a180af9",
     "justindemocratsplanhearingstounwindtrumpstariffsandtaxcutsoncetheytakecongressinjanuary|83118": "ec21eda5dcd01460",
     "web3dailyexploits22nov2026cyberbridge968kchainflip12mupdate|83118": "2747d7cac06e2a86",
-    "michaelsaylor再次发布比特币tracker或暗示继续增持btc|83118": "eeb0bc80749f9d0a"
+    "michaelsaylor再次发布比特币tracker或暗示继续增持btc|83118": "eeb0bc80749f9d0a",
+    "moreonthependingoversighthearingsstateofcrypto|83119": "544d0b02e5fbb898",
+    "trumptohostsecondmemecoindinnertonightwithtrumpdown99frompeak|83119": "b05799865829f858",
+    "chainflipslossesclimbto12millionafterprotocoldiscloses1229btctheftoffershackerbounty|83119": "3583ccfdd864af16",
+    "美股韩股周一价格预告sk海力士预计开盘跌约52美股盘前多数走强|83118": "736355c020000e5a",
+    "美国财长贝森特市场抛售源于美联储言论中期选举等因素|83118": "3ac03e1379ccea9c",
+    "kalshiceo出席民主党州总检察长会议平台面临多州诉讼|83119": "b70fd9aa47e556f2",
+    "sol跌破70usdt24h跌幅095|83119": "e45a66c00a2953b7",
+    "solana主网改用10版本基金会取得coingecko多数股权|83119": "2c662e7eb812e76c",
+    "约880年一遇概率下挖出区块单人矿工获3066枚btc奖励|83119": "ba9ed5ae5a718fab",
+    "fusionist攻击相关铸币地址及tornado跨链桥地址获披露|83119": "e86c4578e972f3af",
+    "约187万美元资金经tornadocash洗钱fusionist攻击者转移10915枚eth|83119": "d300546f245b4dd4",
+    "铸造10千万亿枚acefusionistbridge漏洞被利用|83119": "2f43bb53ba8cac20",
+    "黑客仍持有02479枚btc未花费截至区块高度977088|83119": "959645ed5cb57b5c",
+    "速度更快成本更低且更稳健solana基金会称alpenglow将于10月中旬升级|83119": "4128af0e0197101c",
+    "英国将禁止加密交易所在自有平台做市|83119": "1ca5fe851e890af5",
+    "律师danielwallach限制令可能仅限纽约州用户是否全国适用仍存争议|83119": "fa55d0e9df9473a9",
+    "coinbaseinstitutional向coinbase转移192亿枚usdc价值约192亿美元|83118": "e801f86610de7ac0",
+    "defidevelopmentcorp优先股chad本周预计筹资足以购入超800枚sol|83118": "b9b10d47dc41c111",
+    "价值约25亿美元circle的usdctreasury新铸造25亿枚usdc|83118": "01fae44d78a96981",
+    "btc突破61000usdt24h涨幅196|83118": "f7d0a67e118ccd6b",
+    "预测市场认为比特币年内触及55万美元概率为56|83118": "f79a28ec454e8307",
+    "fusionistbridge漏洞被利用铸造了10千万亿枚ace代币估计抽走104万美元usdt|83119": "b0f6db38717d8d8e",
+    "uktobarcryptoplatformsfrommakingmarketsontheirownvenues|83119": "4b1253fa865e9692",
+    "chainflipfreezeswithdrawalsafter486millionleavesethereumvault|83118": "4d66338162b8ece4",
+    "solanamainnetmovestoversion10|83119": "4623052243a5da35",
+    "justindemocratsplantoreversepresidentdonaldtrumpstaxcutsaftertakingcontrolofcongressnextyear|83118": "00a5bbacd11ab466",
+    "justinover50governmentaiandcybersecurityleaderswarncyberattacksonbusinessesandcriticalinfrastructurewillbecomeconstantandhighlydisruptiveoverthenext18months|83118": "c047219a88566965",
+    "justinbitcoinreclaims61000andethreclaims1715|83118": "f2dfe3056cf1671f",
+    "justinelonmusksaysteslastslahumanoidrobotoptimuswillbethebestproductofalltime|83118": "84dd5a582002bf81",
+    "justinpresidenttrumpblamesdemocratsforthestockmarketcrashingsaysitwillonlygetworse|83118": "f4af410175181ad5",
+    "justinusintelligenceconfirmschinagainedaccesstoadvancedamericanaichips|83118": "6efdb89a4503d609",
+    "justinopenaichiefscientistcallstolimitaidevelopment|83119": "6bb169b1869984a9",
+    "newonetradergotintotrumpsmemecoingalaforthethirdtimebybuyingtrumpandshortingitatthesametimeandthisroundhewalkedaway6richer|83118": "dae6e86a41715170",
+    "updatethesp500hasalmostwipedoutitsentire2026gain|83119": "2e5e5ed2f755ff67",
+    "painthecryptofearandgreedindexhasnotbeenthislowsincefebruary2026|83119": "be1f85cf1838511e"
   },
   "source_failures": {
     "techflow": {
-      "count": 2,
+      "count": 3,
       "error_type": "missing",
       "last_error": "解析后 0 条，按缺失处理，不视为正常空轮",
-      "at": "2026-11-22T15:34:23.026861+00:00"
+      "at": "2026-11-22T21:56:39.173269+00:00"
     },
     "x_investigations": {
-      "count": 2,
+      "count": 3,
       "error_type": "stale",
-      "last_error": "最新条目距今 171.9 小时，超过 72 小时阈值",
-      "at": "2026-11-22T15:34:23.026905+00:00"
+      "last_error": "最新条目距今 178.3 小时，超过 72 小时阈值",
+      "at": "2026-11-22T21:56:39.173320+00:00"
     }
   },
   "runs": [
@@ -3580,6 +4000,10 @@
     {
       "at": "2026-11-22T15:34:17.594301+00:00",
       "gap_minutes": 496.5
+    },
+    {
+      "at": "2026-11-22T21:56:31.392346+00:00",
+      "gap_minutes": 382.2
     }
   ]
 }
