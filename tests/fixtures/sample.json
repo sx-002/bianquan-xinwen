@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "source": "sec_official", "label": "SEC 样例", "layer": "fixture",
+      "title": "SEC 起诉某加密项目涉嫌欺诈",
+      "url": "https://www.sec.gov/news/press-release/fixture-001",
+      "published_at": "now-20m",
+      "summary": "SEC 称该项目未注册发行证券"
+    },
+    {
+      "source": "coindesk", "label": "媒体样例", "layer": "fixture",
+      "title": "某 DeFi 协议遭黑客攻击，损失 1200 万美元",
+      "url": "https://www.coindesk.com/fixture-002",
+      "published_at": "now-5m",
+      "summary": "攻击发生在以太坊链上，团队已暂停合约"
+    },
+    {
+      "source": "odaily", "label": "中文样例", "layer": "fixture",
+      "title": "某协议完成 1000 万美元融资",
+      "url": "https://www.odaily.news/zh-CN/newsflash/fixture-003",
+      "published_at": "now-10m",
+      "summary": "本轮融资由某基金领投"
+    },
+    {
+      "source": "blockbeats", "label": "让路样例", "layer": "fixture",
+      "title": "Binance 暂停提现，恢复时间另行通知",
+      "url": "https://www.theblockbeats.info/flash/fixture-004",
+      "published_at": "now-4m",
+      "summary": "平台公告全站暂停提现"
+    },
+    {
+      "source": "odaily", "label": "巨鲸样例", "layer": "fixture",
+      "title": "某巨鲸转移 9938 枚 ZEC 至新地址，价值约 942 万美元",
+      "url": "https://www.odaily.news/zh-CN/newsflash/fixture-005",
+      "published_at": "now-3m",
+      "summary": "链上监测显示资金从交易所转出"
+    },
+    {
+      "source": "cointelegraph", "label": "传闻样例", "layer": "fixture",
+      "title": "BTC 协议据称遭黑客攻击，损失 100 万美元",
+      "url": "https://cointelegraph.com/fixture-006",
+      "published_at": "now-8m",
+      "summary": "消息人士称仍在核实"
+    },
+    {
+      "source": "cointelegraph", "label": "英文样例", "layer": "fixture",
+      "title": "Kalshi says it complies with CFTC order halting Trump mention contracts",
+      "url": "https://cointelegraph.com/fixture-009",
+      "published_at": "now-9m",
+      "summary": "The prediction market said it is following the regulator's order"
+    },
+    {
+      "source": "decrypt", "label": "让路样例", "layer": "fixture",
+      "title": "Binance Hack Wallets Move $137 Million in Ethereum After Two Weeks of Silence",
+      "url": "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks",
+      "published_at": "now-6m",
+      "summary": "A wallet linked to October's Binance theft moved funds in Ethereum"
+    },
+    {
+      "source": "decrypt", "label": "过期样例", "layer": "fixture",
+      "title": "某协议被黑损失 500 万美元",
+      "url": "https://decrypt.co/fixture-007",
+      "published_at": "now-180m",
+      "summary": "事件发生于三小时前"
+    }
+  ],
+  "cloud": [
+    {
+      "query": "SEC CFTC crypto enforcement action", "engine": "exa_public",
+      "url": "https://example.org/regulatory/fixture-008",
+      "title": "SEC 批准某加密项目合规申请",
+      "snippet": "监管机构作出决定",
+      "published_at": "now-15m"
+    }
+  ]
+}
