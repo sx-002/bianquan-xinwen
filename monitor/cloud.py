@@ -16,6 +16,7 @@ from . import http, rules, sources
 
 UTC = timezone.utc
 EXA_MCP = "https://mcp.exa.ai/mcp"
+ANYSEARCH_DEFAULT_BASE_URL = "https://api.anysearch.com"
 OVERLAP_MINUTES = 30
 MAX_LOOKBACK_DAYS = 3
 JSONRPC_HEADERS = {
@@ -155,6 +156,27 @@ def mcp_call(endpoint: str, tool_name: str, arguments: dict, *, timeout: float =
     return "\n".join(str(part.get("text") or "") for part in block if isinstance(part, dict))
 
 
+_MONTHS = {name: idx for idx, name in enumerate(
+    ("jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"),
+    start=1)}
+
+
+def _json_date(*texts: str) -> str:
+    """Anysearch 的 JSON 结果没有发布时间字段，从标题/摘要里补一个明确日期。"""
+    blob = " ".join(str(item or "") for item in texts)
+    found = re.search(r"20\d{2}[-/.]\d{1,2}[-/.]\d{1,2}", blob)
+    if found:
+        year, month, day = re.split(r"[-/.]", found.group(0))
+        return f"{int(year):04d}-{int(month):02d}-{int(day):02d}T00:00:00+00:00"
+    found = re.search(r"\b([A-Za-z]{3,9})\.?\s+(\d{1,2}),\s*(20\d{2})\b", blob)
+    if found:
+        month = _MONTHS.get(found.group(1)[:3].lower())
+        if month:
+            return f"{found.group(3)}-{month:02d}-{int(found.group(2)):02d}T00:00:00+00:00"
+    found = re.search(r"\d+\s*(?:minute|hour|day)s?\s*ago", blob, re.I)
+    return found.group(0).lower() if found else ""
+
+
 def _hits_from_text(text: str, query: str, engine: str) -> List[SearchHit]:
     hits: List[SearchHit] = []
     for chunk in re.split(r"\n(?=Title:)", text):
@@ -186,10 +208,13 @@ def _hits_from_text(text: str, query: str, engine: str) -> List[SearchHit]:
                 url = str(value.get("url") or value.get("link") or "")
                 if url.startswith("http") and url not in seen:
                     seen.add(url)
-                    hits.append(SearchHit(query, engine, url,
-                                          str(value.get("title") or "")[:300],
-                                          str(value.get("snippet") or value.get("text") or "")[:800],
-                                          str(value.get("published") or value.get("date") or "")[:60]))
+                    title = str(value.get("title") or "")
+                    snippet = str(value.get("snippet") or value.get("text")
+                                  or value.get("content") or "")
+                    published = (str(value.get("published") or value.get("date") or "")
+                                 or _json_date(title, snippet))
+                    hits.append(SearchHit(query, engine, url, title[:300],
+                                          snippet[:800], published[:60]))
                 for child in value.values():
                     walk(child)
             elif isinstance(value, list):
@@ -206,7 +231,7 @@ def exa_search(query: str, since_text: str) -> List[SearchHit]:
 
 
 def anysearch_search(query: str, key: str, since_text: str) -> List[SearchHit]:
-    url = f"{os.environ.get('ANYSEARCH_BASE_URL', 'https://api.anysearch.ai').rstrip('/')}/v1/search"
+    url = f"{os.environ.get('ANYSEARCH_BASE_URL', ANYSEARCH_DEFAULT_BASE_URL).rstrip('/')}/v1/search"
     scoped = f"{query}；只返回 {since_text} 之后新发布的原文新闻，排除旧文章与交易所公告"
     result = http.fetch(url, method="POST",
                         body=json.dumps({"query": scoped, "max_results": 5}).encode(),

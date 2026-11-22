@@ -260,6 +260,23 @@ class TestBalance(unittest.TestCase):
 
 
 class TestCloud(unittest.TestCase):
+    def test_anysearch_endpoint_is_com(self):
+        self.assertEqual(cloud.ANYSEARCH_DEFAULT_BASE_URL, "https://api.anysearch.com")
+
+    def test_anysearch_json_parsed_with_date(self):
+        self.assertEqual(cloud._json_date("date: Nov 20, 2026"), "2026-11-20T00:00:00+00:00")
+        payload = json.dumps({"code": 0, "data": {"results": [{
+            "title": "某协议被黑，损失 1200 万美元",
+            "url": "https://example.com/news/1",
+            "snippet": "某协议被黑细节，date: 20 minutes ago",
+        }]}})
+        hits = cloud._hits_from_text(payload, "某协议被黑", "anysearch")
+        self.assertEqual(len(hits), 1)
+        self.assertEqual(hits[0].url, "https://example.com/news/1")
+        self.assertEqual(hits[0].published_at, "20 minutes ago")
+        items = cloud.hits_to_items(hits, window_start=NOW - timedelta(hours=1), window_end=NOW)
+        self.assertEqual(len(items), 1)
+
     def test_window_overlap(self):
         last = NOW - timedelta(hours=2)
         start, text = cloud.search_window(last.isoformat(), now=NOW)
