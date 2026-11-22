@@ -1,9 +1,9 @@
 {
-  "started_at": "2026-11-22T07:15:47.445285+00:00",
-  "finished_at": "2026-11-22T07:16:00.123429+00:00",
+  "started_at": "2026-11-22T07:17:50.486549+00:00",
+  "finished_at": "2026-11-22T07:18:03.235821+00:00",
   "gap_minutes": -1,
   "mode": "send",
-  "window_start": "2026-11-19T06:45:47.445285+00:00",
+  "window_start": "2026-11-19T06:47:50.486549+00:00",
   "overlap_minutes": 30,
   "sources": [
     {
@@ -13,7 +13,7 @@
       "status": "ok",
       "error": "",
       "items": 25,
-      "duration_ms": 106,
+      "duration_ms": 65,
       "expected": false
     },
     {
@@ -23,7 +23,7 @@
       "status": "ok",
       "error": "",
       "items": 10,
-      "duration_ms": 79,
+      "duration_ms": 47,
       "expected": false
     },
     {
@@ -33,7 +33,7 @@
       "status": "ok",
       "error": "",
       "items": 10,
-      "duration_ms": 86,
+      "duration_ms": 66,
       "expected": false
     },
     {
@@ -43,7 +43,7 @@
       "status": "ok",
       "error": "",
       "items": 50,
-      "duration_ms": 242,
+      "duration_ms": 129,
       "expected": false
     },
     {
@@ -53,7 +53,7 @@
       "status": "ok",
       "error": "",
       "items": 20,
-      "duration_ms": 315,
+      "duration_ms": 181,
       "expected": false
     },
     {
@@ -63,7 +63,7 @@
       "status": "ok",
       "error": "",
       "items": 25,
-      "duration_ms": 316,
+      "duration_ms": 140,
       "expected": false
     },
     {
@@ -73,7 +73,7 @@
       "status": "ok",
       "error": "",
       "items": 20,
-      "duration_ms": 89,
+      "duration_ms": 49,
       "expected": false
     },
     {
@@ -83,7 +83,7 @@
       "status": "ok",
       "error": "",
       "items": 30,
-      "duration_ms": 105,
+      "duration_ms": 81,
       "expected": false
     },
     {
@@ -93,7 +93,7 @@
       "status": "ok",
       "error": "",
       "items": 37,
-      "duration_ms": 102,
+      "duration_ms": 42,
       "expected": false
     },
     {
@@ -103,7 +103,7 @@
       "status": "ok",
       "error": "",
       "items": 30,
-      "duration_ms": 59,
+      "duration_ms": 50,
       "expected": false
     },
     {
@@ -113,7 +113,7 @@
       "status": "ok",
       "error": "",
       "items": 10,
-      "duration_ms": 2430,
+      "duration_ms": 4329,
       "expected": false
     },
     {
@@ -123,7 +123,7 @@
       "status": "ok",
       "error": "",
       "items": 16,
-      "duration_ms": 1756,
+      "duration_ms": 1349,
       "expected": false
     },
     {
@@ -133,7 +133,7 @@
       "status": "missing",
       "error": "解析后 0 条，按缺失处理，不视为正常空轮",
       "items": 0,
-      "duration_ms": 373,
+      "duration_ms": 305,
       "expected": false
     },
     {
@@ -143,7 +143,7 @@
       "status": "blocked",
       "error": "HTTP Error 403: Forbidden",
       "items": 0,
-      "duration_ms": 88,
+      "duration_ms": 74,
       "expected": true
     },
     {
@@ -153,7 +153,7 @@
       "status": "ok",
       "error": "",
       "items": 10,
-      "duration_ms": 138,
+      "duration_ms": 83,
       "expected": false
     },
     {
@@ -163,7 +163,7 @@
       "status": "ok",
       "error": "",
       "items": 10,
-      "duration_ms": 668,
+      "duration_ms": 563,
       "expected": false
     },
     {
@@ -173,7 +173,7 @@
       "status": "ok",
       "error": "",
       "items": 5,
-      "duration_ms": 962,
+      "duration_ms": 540,
       "expected": false
     },
     {
@@ -183,7 +183,7 @@
       "status": "ok",
       "error": "",
       "items": 20,
-      "duration_ms": 8723,
+      "duration_ms": 9828,
       "expected": false
     },
     {
@@ -193,7 +193,7 @@
       "status": "ok",
       "error": "",
       "items": 50,
-      "duration_ms": 84,
+      "duration_ms": 126,
       "expected": false
     },
     {
@@ -203,7 +203,7 @@
       "status": "ok",
       "error": "",
       "items": 10,
-      "duration_ms": 158,
+      "duration_ms": 142,
       "expected": false
     },
     {
@@ -213,7 +213,7 @@
       "status": "ok",
       "error": "",
       "items": 20,
-      "duration_ms": 840,
+      "duration_ms": 920,
       "expected": false
     },
     {
@@ -221,9 +221,9 @@
       "label": "X @investigations",
       "layer": "telegram",
       "status": "stale",
-      "error": "最新条目距今 163.6 小时，超过 72 小时阈值",
+      "error": "最新条目距今 163.7 小时，超过 72 小时阈值",
       "items": 20,
-      "duration_ms": 953,
+      "duration_ms": 1008,
       "expected": false
     },
     {
@@ -233,7 +233,7 @@
       "status": "ok",
       "error": "",
       "items": 14,
-      "duration_ms": 811,
+      "duration_ms": 881,
       "expected": false
     },
     {
@@ -243,7 +243,7 @@
       "status": "ok",
       "error": "",
       "items": 14,
-      "duration_ms": 831,
+      "duration_ms": 864,
       "expected": false
     }
   ],
@@ -252,18 +252,18 @@
       "count": 1,
       "error_type": "missing",
       "last_error": "解析后 0 条，按缺失处理，不视为正常空轮",
-      "at": "2026-11-22T07:16:00.096961+00:00"
+      "at": "2026-11-22T07:18:03.188678+00:00"
     },
     "x_investigations": {
       "count": 1,
       "error_type": "stale",
-      "last_error": "最新条目距今 163.6 小时，超过 72 小时阈值",
-      "at": "2026-11-22T07:16:00.096998+00:00"
+      "last_error": "最新条目距今 163.7 小时，超过 72 小时阈值",
+      "at": "2026-11-22T07:18:03.188712+00:00"
     }
   },
   "all_sources_failed": false,
   "cloud": {
-    "since": "2026-11-19 06:45 UTC",
+    "since": "2026-11-19 06:47 UTC",
     "queries": [
       "加密货币 监管 执法 最新",
       "协议 被黑 漏洞 损失",
