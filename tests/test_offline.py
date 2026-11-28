@@ -21,11 +21,11 @@ NOW_ISO = NOW.isoformat()
 
 class TestSources(unittest.TestCase):
     def test_feed_list_is_scope_limited(self):
-        self.assertEqual(len(sources.FEEDS), 24)
+        self.assertEqual(len(sources.FEEDS), 21)
         names = {src.name for src in sources.FEEDS}
         self.assertIn("eqn_main", names)
         self.assertIn("ns3_ranking", names)
-        for name in ("abmedia", "blocktempo", "blockcast", "zombit", "foresight"):
+        for name in ("blocktempo", "blockcast", "zombit", "foresight"):
             self.assertIn(name, names)
             self.assertEqual(sources.SOURCE_BY_NAME[name].kind, "rss")
             self.assertTrue(sources.SOURCE_BY_NAME[name].verified_at)
@@ -70,15 +70,6 @@ class TestSources(unittest.TestCase):
         self.assertEqual(len(items), 1)
         self.assertEqual(items[0].title, "某协议被黑")
         self.assertTrue(items[0].published_at.startswith("2026-11-"))
-
-    def test_techflow_parse(self):
-        page = ('<a target="_blank" aria-label="CFTC 暂停某合约上市" '
-                'class="absolute inset-0 z-0" href="/newsletter/145263"></a>'
-                '<span class="text-[10px] text-gray">11/17 16:36</span>')
-        src = next(src for src in sources.FEEDS if src.name == "techflow")
-        items = sources.parse_payload(src, http_result(page.encode()))
-        self.assertEqual(len(items), 1)
-        self.assertEqual(items[0].url, "https://www.techflowpost.com/newsletter/145263")
 
     def test_telegram_preview_parse(self):
         page = ('<div class="tgme_widget_message_wrap"><div class="tgme_widget_message" '

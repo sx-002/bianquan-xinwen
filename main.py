@@ -31,8 +31,8 @@ def _self_check() -> int:
             failures.append(message)
 
     now = datetime.now(timezone.utc).isoformat()
-    check(len(sources.FEEDS) == 24, f"源条目应为 24，实际 {len(sources.FEEDS)}")
-    new_sources = ("abmedia", "blocktempo", "blockcast", "zombit", "foresight")
+    check(len(sources.FEEDS) == 21, f"源条目应为 21，实际 {len(sources.FEEDS)}")
+    new_sources = ("blocktempo", "blockcast", "zombit", "foresight")
     sample_feed = (b'<rss version="2.0"><channel><item>'
                    b'<title>Test Chinese News</title><link>https://example.com/a</link>'
                    b'<pubDate>Tue, 17 Nov 2026 10:00:00 GMT</pubDate></item></channel></rss>')

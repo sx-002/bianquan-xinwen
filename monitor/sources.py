@@ -86,14 +86,6 @@ FEEDS: List[FeedSource] = [
                "blockbeats", "2026-11-18", 72, "中文快讯；原 API 端点本机 SSL 不稳定，改用快讯列表页"),
     FeedSource("odaily", "Odaily 星球日报", "https://www.odaily.news/zh-CN/newsflash",
                "odaily", "2026-11-18", 72, "中文快讯；/rss 已 404，读快讯列表页"),
-    FeedSource("techflow", "TechFlow 深潮", "https://www.techflowpost.com/newsletter",
-               "techflow", "2026-11-18", 72, "中文快讯；/rss 返回 HTML，读 newsletter 列表页"),
-    FeedSource("abmedia", "ABMedia 链新闻", "https://abmedia.io/feed",
-               "rss", "2026-11-18", 72, "海外繁体中文，不转简体；GitHub 出口对完整浏览器头返回 403，改用最简请求头",
-               {"User-Agent": "Mozilla/5.0", "Accept": "*/*", "Accept-Language": "",
-                "Sec-Fetch-Dest": "", "Sec-Fetch-Mode": "", "Sec-Fetch-Site": "",
-                "Sec-Fetch-User": "", "sec-ch-ua": "", "sec-ch-ua-mobile": "",
-                "sec-ch-ua-platform": ""}),
     FeedSource("blocktempo", "BlockTempo 动区", "https://www.blocktempo.com/feed/",
                "rss", "2026-11-18", 72, "海外繁体中文，不转简体"),
     FeedSource("blockcast", "区块客", "https://blockcast.it/feed/",
@@ -109,9 +101,6 @@ FEEDS: List[FeedSource] = [
     FeedSource("x_wublockchain", "X @wublockchainenglish",
                "https://t.me/s/wublockchainenglish", "telegram", "2026-11-17", 72,
                "亚洲监管；公开预览页", channel="wublockchainenglish"),
-    FeedSource("x_investigations", "X @investigations",
-               "https://t.me/s/investigations", "telegram", "2026-11-17", 72,
-               "被黑追赃；公开预览页", channel="investigations"),
     FeedSource("x_watcherguru", "X @WatcherGuru",
                "https://t.me/s/WatcherGuru", "telegram", "2026-11-17", 72,
                "快讯，当线索不当事实；公开预览页", channel="WatcherGuru"),
@@ -122,7 +111,7 @@ FEEDS: List[FeedSource] = [
 
 SOURCE_BY_NAME = {src.name: src for src in FEEDS}
 # 本机可读但 GitHub 出口固定 403 的源：按预期不可直读，不触发暂停推送/健康告警。
-KNOWN_BLOCKED = {"abmedia"}
+KNOWN_BLOCKED = set()
 OFFICIAL_PROMOTABLE = {"sec_official", "cftc_general", "cftc_enforcement"}
 RESEARCH_SOURCES = {"trailofbits"}
 
